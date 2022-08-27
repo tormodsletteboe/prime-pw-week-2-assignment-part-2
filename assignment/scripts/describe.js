@@ -76,7 +76,7 @@ console.log(secret)
 // if isStudent is true and zip is greater than 80000 then console log 'You're a student on the West Coast!
 // else if isStudent is false or age is less than 30 then console log 'What are your hobbies?'
 // else if isStudent is true then console log 'Welcome to Prime'
-// else happens if none of the 3 blocks above is executed
+// else happens if none of the 3 blocks above is executed, and would print 'How about the weather?'
 // in this case console log would print 'Welcome to Prime'
 
 //CODE
