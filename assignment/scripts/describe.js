@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declare name and set it to string 'Dane'
+// check if name is of same type and value as 'Mary', if it is console log 'Hi, Mary!'
+// else console log 'How do you do?'
+// sine name is set to 'Dane' the console log would be 'How do you do'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declare secret, but not initialized, then declare code and initialize to number 123
+// check if code is of same type and value as 123, which it is, so initialize secret to string 'super' and double value of code
+// to 246.
+// if code is greater than 250 set secret to string 'duper', which in this case does not happen,
+// so console log would be string 'super'
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declare and initialize isStudent to boolean true, declare and initilize age to number 34, declare and initialize zip
+// to number 55407.
+// if isStudent is true and zip is greater than 80000 then console log 'You're a student on the West Coast!
+// else if isStudent is false or age is less than 30 then console log 'What are your hobbies?'
+// else if isStudent is true then console log 'Welcome to Prime'
+// else happens if none of the 3 blocks above is executed
+// in this case console log would print 'Welcome to Prime'
 
 //CODE
 /*
