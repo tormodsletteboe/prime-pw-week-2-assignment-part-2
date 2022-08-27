@@ -134,12 +134,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX, colorOne should not be set to 'red', but to 'blue'!
 let colorOne = 'red';
+//FIX, colorTwo should not be set to 'blue', but to 'red'!
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //FIX, need to set colorTwo to 'purple!
 }
 */
 
@@ -149,8 +152,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
+FIX, time is not a variable but constant, so it should be, let time=4; , code still works fine, but technically there is only 1 variable
 const time = 4;
-
+FIX should be (temp > 39 && time >=4), ie replace || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,8 +166,10 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+FIX,  minAge is not a variable, so replace const with let
 const minAge = 21;
 
+FIX, not an error but don't like how the expression is written, I would have written (age >= minAge) 
 if(minAge <= age) {
   console.log('no entry');
 } else {
